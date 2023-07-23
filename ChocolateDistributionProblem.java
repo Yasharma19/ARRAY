@@ -1,6 +1,8 @@
 import java.util.*;
 
 class HelloWorld {
+
+    //N elements(Packet of chocolates) are there and M(No. of children) are there, we have to distribute M packets to M children and get the min diff between min and max in M packets.
     public static int CDP(int[] arr,int n,int m){
         Arrays.sort(arr);
         int minDiff=Integer.MAX_VALUE;
